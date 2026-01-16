@@ -1,0 +1,160 @@
+/* src/login.css */
+.loginWrap{
+  min-height: 70vh;
+  display: grid;
+  place-items: center;
+}
+
+.loginBox{
+  width: 100%;
+  max-width: 380px;
+}
+
+.loginCard{
+  border: 1px solid #e2e8f0;
+  background: rgba(255,255,255,.85);
+  border-radius: 24px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(15,23,42,.06);
+  backdrop-filter: blur(10px);
+}
+
+.brandTitle{
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+  color: #0f172a;
+}
+
+.brandTag{
+  margin-top: 2px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.tabs{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 6px;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  gap: 6px;
+}
+
+.tabBtn{
+  border: none;
+  background: transparent;
+  padding: 10px 10px;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 13px;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.tabBtn:hover{ color: #0f172a; }
+
+.tabBtnActive{
+  background: white;
+  color: #0f172a;
+  box-shadow: 0 1px 0 rgba(15,23,42,.05);
+  border: 1px solid #e2e8f0;
+}
+
+.h3{
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.form{
+  display: grid;
+  gap: 10px;
+}
+
+.field{
+  display: grid;
+  gap: 6px;
+}
+
+.label{
+  font-size: 11px;
+  font-weight: 800;
+  color: #64748b;
+}
+
+.input, .select, .textarea{
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  background: white;
+  border-radius: 14px;
+  padding: 10px 12px;
+  outline: none;
+  font-size: 14px;
+  color: #0f172a;
+}
+
+.textarea{
+  min-height: 88px;
+  resize: none;
+}
+
+.input:focus, .select:focus, .textarea:focus{
+  border-color: #a78bfa;
+  box-shadow: 0 0 0 6px rgba(167,139,250,.20);
+}
+
+.twoCols{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.errorBox{
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  color: #b91c1c;
+  border-radius: 14px;
+  padding: 10px 12px;
+  font-size: 13px;
+}
+
+.submit{
+  margin-top: 2px;
+  border: none;
+  border-radius: 14px;
+  padding: 11px 12px;
+  font-weight: 900;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(90deg, #7c3aed, #6d28d9);
+  box-shadow: 0 10px 22px rgba(124,58,237,.20);
+}
+
+.submit:hover{
+  filter: brightness(1.02);
+}
+
+.submit:disabled{
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.note{
+  margin-top: 8px;
+  text-align: center;
+  font-size: 11px;
+  color: #64748b;
+}
+
+.small{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 11px;
+  color: #64748b;
+}
+.small b{ color:#0f172a; }
